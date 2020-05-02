@@ -1,0 +1,9 @@
+F:\Git\Learn_English\Learn_English\bin\Debug\Learn_English.exe.config
+F:\Git\Learn_English\Learn_English\bin\Debug\Learn_English.exe
+F:\Git\Learn_English\Learn_English\bin\Debug\Learn_English.pdb
+F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.csprojAssemblyReference.cache
+F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.Properties.Resources.resources
+F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.csproj.GenerateResource.cache
+F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.exe
+F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.pdb
+F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.StartMenu.resources
