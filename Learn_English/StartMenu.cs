@@ -34,7 +34,9 @@ namespace Learn_English
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            //this.Close();
+            ExitForm newExitForm = new ExitForm();
+            newExitForm.Show();
         }
     }
 }

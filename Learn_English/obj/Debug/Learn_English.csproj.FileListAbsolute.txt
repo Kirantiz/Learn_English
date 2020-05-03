@@ -7,3 +7,4 @@ F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.csproj.GenerateResour
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.exe
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.pdb
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.StartMenu.resources
+F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.ExitForm.resources
