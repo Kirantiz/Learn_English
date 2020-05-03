@@ -50,6 +50,7 @@
             this.beginnerButton.TabIndex = 0;
             this.beginnerButton.Text = "BEGINNER";
             this.beginnerButton.UseVisualStyleBackColor = false;
+            this.beginnerButton.Click += new System.EventHandler(this.beginnerButton_Click);
             // 
             // elemantaryButton
             // 

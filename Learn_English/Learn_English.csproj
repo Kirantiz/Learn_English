@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BeginnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeginnerForm.Designer.cs">
+      <DependentUpon>BeginnerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExitForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="StartMenu.Designer.cs">
       <DependentUpon>StartMenu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BeginnerForm.resx">
+      <DependentUpon>BeginnerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ExitForm.resx">
       <DependentUpon>ExitForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -38,5 +38,14 @@ namespace Learn_English
             ExitForm newExitForm = new ExitForm();
             newExitForm.Show();
         }
+
+        private void beginnerButton_Click(object sender, EventArgs e)
+        {
+            
+            BeginnerForm newBeginnerForm = new BeginnerForm(this);
+            newBeginnerForm.Show();
+            newBeginnerForm.Left = this.Left;
+            newBeginnerForm.Top = this.Top;
+        }
     }
 }
