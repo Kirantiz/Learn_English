@@ -55,5 +55,13 @@ namespace Learn_English
             newElemantaryForm.Left = this.Left;
             newElemantaryForm.Top = this.Top;
         }
+
+        private void optionsButton_Click(object sender, EventArgs e)
+        {
+            AboutProgrammButton newAboutProgrammButton = new AboutProgrammButton(this);
+            newAboutProgrammButton.Show();
+            newAboutProgrammButton.Left = this.Left;
+            newAboutProgrammButton.Top = this.Top;
+        }
     }
 }

@@ -82,8 +82,9 @@
             this.optionsButton.Name = "optionsButton";
             this.optionsButton.Size = new System.Drawing.Size(246, 43);
             this.optionsButton.TabIndex = 2;
-            this.optionsButton.Text = "OPTIONS";
+            this.optionsButton.Text = "ABOUT PROGRAMM";
             this.optionsButton.UseVisualStyleBackColor = false;
+            this.optionsButton.Click += new System.EventHandler(this.optionsButton_Click);
             // 
             // exitButton
             // 

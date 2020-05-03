@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutProgrammButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutProgrammButton.Designer.cs">
+      <DependentUpon>AboutProgrammButton.cs</DependentUpon>
+    </Compile>
     <Compile Include="BeginnerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="StartMenu.Designer.cs">
       <DependentUpon>StartMenu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AboutProgrammButton.resx">
+      <DependentUpon>AboutProgrammButton.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BeginnerForm.resx">
       <DependentUpon>BeginnerForm.cs</DependentUpon>
     </EmbeddedResource>
