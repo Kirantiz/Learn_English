@@ -52,6 +52,12 @@
     <Compile Include="BeginnerForm.Designer.cs">
       <DependentUpon>BeginnerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ElemantaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElemantaryForm.Designer.cs">
+      <DependentUpon>ElemantaryForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExitForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     </Compile>
     <EmbeddedResource Include="BeginnerForm.resx">
       <DependentUpon>BeginnerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElemantaryForm.resx">
+      <DependentUpon>ElemantaryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ExitForm.resx">
       <DependentUpon>ExitForm.cs</DependentUpon>

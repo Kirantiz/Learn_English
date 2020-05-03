@@ -67,6 +67,7 @@
             this.elemantaryButton.TabIndex = 1;
             this.elemantaryButton.Text = "ELEMANTARY";
             this.elemantaryButton.UseVisualStyleBackColor = false;
+            this.elemantaryButton.Click += new System.EventHandler(this.elemantaryButton_Click);
             // 
             // optionsButton
             // 

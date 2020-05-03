@@ -47,5 +47,13 @@ namespace Learn_English
             newBeginnerForm.Left = this.Left;
             newBeginnerForm.Top = this.Top;
         }
+
+        private void elemantaryButton_Click(object sender, EventArgs e)
+        {
+            ElemantaryForm newElemantaryForm = new ElemantaryForm(this);
+            newElemantaryForm.Show();
+            newElemantaryForm.Left = this.Left;
+            newElemantaryForm.Top = this.Top;
+        }
     }
 }

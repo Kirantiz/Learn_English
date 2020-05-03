@@ -9,3 +9,4 @@ F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.pdb
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.StartMenu.resources
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.ExitForm.resources
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.BeginnerForm.resources
+F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.ElemantaryForm.resources
