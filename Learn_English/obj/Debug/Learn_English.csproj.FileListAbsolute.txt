@@ -13,3 +13,4 @@ F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.ElemantaryForm.resour
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.AboutProgrammButton.resources
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.AlphabetForm.resources
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.NumbersForm.resources
+F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.Step1Form.resources

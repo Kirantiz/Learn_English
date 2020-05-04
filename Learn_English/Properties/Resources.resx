@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Numbers_1-20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Numbers_1-20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="500_F_262034840_x0OiLx1g7ojVe0HJuixYanRjEOJdin2V" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\500_F_262034840_x0OiLx1g7ojVe0HJuixYanRjEOJdin2V.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,8 +142,14 @@
   <data name="Alphabet_Clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Alphabet_Clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Fon_Step1_with_arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fon_Step1_with_arrows.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Fon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fon3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-winter-vacation-tutoring-advocacy-image_180914" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-winter-vacation-tutoring-advocacy-image_180914.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="English_fon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\English_fon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,7 +172,7 @@
   <data name="learn-english-background-concept-stock-photo_csp44292922" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\learn-english-background-concept-stock-photo_csp44292922.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Numbers_1-20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Numbers_1-20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fon_Step1_with_arrows_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fon_Step1_with_arrows_v2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

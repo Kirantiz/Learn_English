@@ -70,5 +70,13 @@ namespace Learn_English
             newNumbersForm.Left = this.Left;
             newNumbersForm.Top = this.Top;
         }
+
+        private void Step1Button_Click(object sender, EventArgs e)
+        {
+            Step1Form newStep1Form = new Step1Form(this);
+            newStep1Form.Show();
+            newStep1Form.Left = this.Left;
+            newStep1Form.Top = this.Top;
+        }
     }
 }

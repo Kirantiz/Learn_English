@@ -183,6 +183,26 @@ namespace Learn_English.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fon_Step1_with_arrows {
+            get {
+                object obj = ResourceManager.GetObject("Fon_Step1_with_arrows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fon_Step1_with_arrows_v2 {
+            get {
+                object obj = ResourceManager.GetObject("Fon_Step1_with_arrows_v2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fon3 {
             get {
                 object obj = ResourceManager.GetObject("Fon3", resourceCulture);
@@ -216,6 +236,16 @@ namespace Learn_English.Properties {
         internal static System.Drawing.Bitmap pngtree_english_tutor_pink_simple_wind_poster_banner_image_213924 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-english-tutor-pink-simple-wind-poster-banner-image_213924", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_winter_vacation_tutoring_advocacy_image_180914 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-winter-vacation-tutoring-advocacy-image_180914", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
