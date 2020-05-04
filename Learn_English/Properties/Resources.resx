@@ -145,6 +145,9 @@
   <data name="English_fon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\English_fon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Fon_is_blue_Alphabet_final" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fon_is_blue_Alphabet_final.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="English_fon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\English_fon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -160,7 +163,7 @@
   <data name="learn-english-background-concept-stock-photo_csp44292922" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\learn-english-background-concept-stock-photo_csp44292922.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fon_is_blue_Alphabet_final" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fon_is_blue_Alphabet_final.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Numbers_1-20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Numbers_1-20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

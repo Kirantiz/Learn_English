@@ -203,6 +203,16 @@ namespace Learn_English.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Numbers_1_20 {
+            get {
+                object obj = ResourceManager.GetObject("Numbers_1-20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_english_tutor_pink_simple_wind_poster_banner_image_213924 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-english-tutor-pink-simple-wind-poster-banner-image_213924", resourceCulture);

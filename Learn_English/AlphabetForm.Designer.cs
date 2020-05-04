@@ -37,7 +37,8 @@
             this.BackToLessonsButton.BackColor = System.Drawing.Color.Plum;
             this.BackToLessonsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BackToLessonsButton.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BackToLessonsButton.Location = new System.Drawing.Point(77, 603);
+            this.BackToLessonsButton.Location = new System.Drawing.Point(79, 602);
+            this.BackToLessonsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BackToLessonsButton.Name = "BackToLessonsButton";
             this.BackToLessonsButton.Size = new System.Drawing.Size(257, 43);
             this.BackToLessonsButton.TabIndex = 0;
@@ -60,6 +61,7 @@
             this.MaximizeBox = false;
             this.Name = "AlphabetForm";
             this.Text = "AlphabetForm";
+            this.TopMost = true;
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.AlphabetForm_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.AlphabetForm_MouseMove);
             this.ResumeLayout(false);

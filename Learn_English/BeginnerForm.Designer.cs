@@ -63,6 +63,7 @@
             this.NumbersButton.TabIndex = 1;
             this.NumbersButton.Text = "NUMBERS";
             this.NumbersButton.UseVisualStyleBackColor = false;
+            this.NumbersButton.Click += new System.EventHandler(this.NumbersButton_Click);
             // 
             // Step1Button
             // 

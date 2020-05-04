@@ -62,5 +62,13 @@ namespace Learn_English
             newAlphabetForm.Left = this.Left;
             newAlphabetForm.Top = this.Top;
         }
+
+        private void NumbersButton_Click(object sender, EventArgs e)
+        {
+            NumbersForm newNumbersForm = new NumbersForm(this);
+            newNumbersForm.Show();
+            newNumbersForm.Left = this.Left;
+            newNumbersForm.Top = this.Top;
+        }
     }
 }
