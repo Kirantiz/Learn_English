@@ -55,5 +55,12 @@ namespace Learn_English
 
         }
 
+        private void AlphaBetButton_Click(object sender, EventArgs e)
+        {
+            AlphabetForm newAlphabetForm = new AlphabetForm(this);
+            newAlphabetForm.Show();
+            newAlphabetForm.Left = this.Left;
+            newAlphabetForm.Top = this.Top;
+        }
     }
 }

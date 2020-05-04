@@ -113,6 +113,16 @@ namespace Learn_English.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Alphabet_Clear {
+            get {
+                object obj = ResourceManager.GetObject("Alphabet_Clear", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap english_conversation_class {
             get {
                 object obj = ResourceManager.GetObject("english_conversation_class", resourceCulture);
@@ -136,6 +146,36 @@ namespace Learn_English.Properties {
         internal static System.Drawing.Bitmap English_fon2 {
             get {
                 object obj = ResourceManager.GetObject("English_fon2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fon_is_blue_Alphabet {
+            get {
+                object obj = ResourceManager.GetObject("Fon_is_blue_Alphabet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fon_is_blue_Alphabet_final {
+            get {
+                object obj = ResourceManager.GetObject("Fon_is_blue_Alphabet_final", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fon_is_blue_Alphabet_up {
+            get {
+                object obj = ResourceManager.GetObject("Fon_is_blue_Alphabet_up", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

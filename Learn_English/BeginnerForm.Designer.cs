@@ -49,6 +49,7 @@
             this.AlphaBetButton.TabIndex = 0;
             this.AlphaBetButton.Text = "ALPHABET";
             this.AlphaBetButton.UseVisualStyleBackColor = false;
+            this.AlphaBetButton.Click += new System.EventHandler(this.AlphaBetButton_Click);
             // 
             // NumbersButton
             // 

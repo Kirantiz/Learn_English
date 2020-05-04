@@ -52,6 +52,12 @@
     <Compile Include="AboutProgrammButton.Designer.cs">
       <DependentUpon>AboutProgrammButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="AlphabetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphabetForm.Designer.cs">
+      <DependentUpon>AlphabetForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="BeginnerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </Compile>
     <EmbeddedResource Include="AboutProgrammButton.resx">
       <DependentUpon>AboutProgrammButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlphabetForm.resx">
+      <DependentUpon>AlphabetForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BeginnerForm.resx">
       <DependentUpon>BeginnerForm.cs</DependentUpon>
@@ -148,6 +157,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Fon3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alphabet_Clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fon_is_blue_Alphabet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fon_is_blue_Alphabet_up.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fon_is_blue_Alphabet_final.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
