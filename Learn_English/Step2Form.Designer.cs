@@ -42,6 +42,7 @@
             // BackToLessonsButton
             // 
             this.BackToLessonsButton.BackColor = System.Drawing.Color.Plum;
+            this.BackToLessonsButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BackToLessonsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BackToLessonsButton.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BackToLessonsButton.Location = new System.Drawing.Point(79, 602);
@@ -77,6 +78,7 @@
             // RusWord1
             // 
             this.RusWord1.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.RusWord1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RusWord1.FlatAppearance.BorderSize = 0;
             this.RusWord1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RusWord1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -91,6 +93,7 @@
             // RusWord2
             // 
             this.RusWord2.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.RusWord2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RusWord2.FlatAppearance.BorderSize = 0;
             this.RusWord2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RusWord2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -105,6 +108,7 @@
             // RusWord3
             // 
             this.RusWord3.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.RusWord3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RusWord3.FlatAppearance.BorderSize = 0;
             this.RusWord3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RusWord3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -119,6 +123,7 @@
             // RusWord4
             // 
             this.RusWord4.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.RusWord4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RusWord4.FlatAppearance.BorderSize = 0;
             this.RusWord4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RusWord4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -133,6 +138,7 @@
             // NextButton
             // 
             this.NextButton.BackColor = System.Drawing.Color.Transparent;
+            this.NextButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NextButton.Location = new System.Drawing.Point(147, 500);
             this.NextButton.Name = "NextButton";
             this.NextButton.Size = new System.Drawing.Size(114, 75);
@@ -158,7 +164,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Step2Form";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Step2Form";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Step2Form_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Step2Form_MouseMove);

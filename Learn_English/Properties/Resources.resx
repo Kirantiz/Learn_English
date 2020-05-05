@@ -145,17 +145,26 @@
   <data name="Alphabet_Clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Alphabet_Clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fon_Step1_with_arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fon_Step1_with_arrows.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Check2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Check2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fon_step2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fon_step2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-english-tutor-pink-simple-wind-poster-banner-image_213924" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-english-tutor-pink-simple-wind-poster-banner-image_213924.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fon3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngtree-winter-vacation-tutoring-advocacy-image_180914" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-winter-vacation-tutoring-advocacy-image_180914.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fon_Step1_with_arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fon_Step1_with_arrows.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="English_fon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\English_fon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-winter-vacation-tutoring-advocacy-image_180914" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-winter-vacation-tutoring-advocacy-image_180914.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fon_is_blue_Alphabet_final" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fon_is_blue_Alphabet_final.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,8 +172,8 @@
   <data name="English_fon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\English_fon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngtree-english-tutor-pink-simple-wind-poster-banner-image_213924" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-english-tutor-pink-simple-wind-poster-banner-image_213924.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="unCheck2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unCheck2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="english_conversation_class" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\english_conversation_class.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,7 +184,7 @@
   <data name="learn-english-background-concept-stock-photo_csp44292922" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\learn-english-background-concept-stock-photo_csp44292922.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fon_step2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fon_step2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OK_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OK_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

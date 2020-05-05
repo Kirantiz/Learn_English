@@ -56,6 +56,7 @@
             // BackToLessonsButton
             // 
             this.BackToLessonsButton.BackColor = System.Drawing.Color.Plum;
+            this.BackToLessonsButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BackToLessonsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BackToLessonsButton.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BackToLessonsButton.Location = new System.Drawing.Point(79, 602);

@@ -60,6 +60,7 @@
             // BackToLessonsButton
             // 
             this.BackToLessonsButton.BackColor = System.Drawing.Color.Plum;
+            this.BackToLessonsButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BackToLessonsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BackToLessonsButton.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BackToLessonsButton.Location = new System.Drawing.Point(79, 602);
@@ -85,6 +86,7 @@
             // ArrowLeft
             // 
             this.ArrowLeft.BackColor = System.Drawing.Color.Transparent;
+            this.ArrowLeft.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ArrowLeft.Location = new System.Drawing.Point(-1, 553);
             this.ArrowLeft.Name = "ArrowLeft";
             this.ArrowLeft.Size = new System.Drawing.Size(79, 29);
@@ -94,6 +96,7 @@
             // ArrowRight
             // 
             this.ArrowRight.BackColor = System.Drawing.Color.Transparent;
+            this.ArrowRight.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ArrowRight.Location = new System.Drawing.Point(327, 553);
             this.ArrowRight.Name = "ArrowRight";
             this.ArrowRight.Size = new System.Drawing.Size(79, 29);

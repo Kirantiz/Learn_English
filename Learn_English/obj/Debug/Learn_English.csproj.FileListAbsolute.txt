@@ -15,3 +15,4 @@ F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.AlphabetForm.resource
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.NumbersForm.resources
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.Step1Form.resources
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.Step2Form.resources
+F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.Step3Form.resources

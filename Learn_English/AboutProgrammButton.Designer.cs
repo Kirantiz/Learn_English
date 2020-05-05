@@ -43,6 +43,7 @@
             // BackToMainMenuButton
             // 
             this.BackToMainMenuButton.BackColor = System.Drawing.Color.Plum;
+            this.BackToMainMenuButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BackToMainMenuButton.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BackToMainMenuButton.Location = new System.Drawing.Point(79, 602);
             this.BackToMainMenuButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);

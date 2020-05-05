@@ -45,6 +45,7 @@
             // 
             // yesExitButton
             // 
+            this.yesExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.yesExitButton.Font = new System.Drawing.Font("Ink Free", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.yesExitButton.Location = new System.Drawing.Point(12, 60);
             this.yesExitButton.Name = "yesExitButton";
@@ -56,6 +57,7 @@
             // 
             // noExitButton
             // 
+            this.noExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.noExitButton.Font = new System.Drawing.Font("Ink Free", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.noExitButton.Location = new System.Drawing.Point(336, 60);
             this.noExitButton.Name = "noExitButton";

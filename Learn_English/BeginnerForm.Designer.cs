@@ -40,6 +40,7 @@
             // AlphaBetButton
             // 
             this.AlphaBetButton.BackColor = System.Drawing.Color.LimeGreen;
+            this.AlphaBetButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AlphaBetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AlphaBetButton.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AlphaBetButton.Location = new System.Drawing.Point(79, 137);
@@ -54,6 +55,7 @@
             // NumbersButton
             // 
             this.NumbersButton.BackColor = System.Drawing.Color.Yellow;
+            this.NumbersButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NumbersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NumbersButton.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NumbersButton.Location = new System.Drawing.Point(79, 188);
@@ -68,6 +70,7 @@
             // Step1Button
             // 
             this.Step1Button.BackColor = System.Drawing.Color.Coral;
+            this.Step1Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Step1Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Step1Button.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Step1Button.Location = new System.Drawing.Point(79, 239);
@@ -82,6 +85,7 @@
             // Step2Button
             // 
             this.Step2Button.BackColor = System.Drawing.Color.MediumPurple;
+            this.Step2Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Step2Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Step2Button.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Step2Button.Location = new System.Drawing.Point(79, 290);
@@ -96,6 +100,7 @@
             // Step3Button
             // 
             this.Step3Button.BackColor = System.Drawing.Color.Aqua;
+            this.Step3Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Step3Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Step3Button.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Step3Button.Location = new System.Drawing.Point(79, 341);
@@ -105,10 +110,12 @@
             this.Step3Button.TabIndex = 4;
             this.Step3Button.Text = "STEP 3";
             this.Step3Button.UseVisualStyleBackColor = false;
+            this.Step3Button.Click += new System.EventHandler(this.Step3Button_Click);
             // 
             // BackToMenuButton
             // 
             this.BackToMenuButton.BackColor = System.Drawing.Color.Plum;
+            this.BackToMenuButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BackToMenuButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BackToMenuButton.Font = new System.Drawing.Font("Ink Free", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BackToMenuButton.Location = new System.Drawing.Point(79, 602);
