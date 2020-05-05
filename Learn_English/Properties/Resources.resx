@@ -124,6 +124,9 @@
   <data name="500_F_262034840_x0OiLx1g7ojVe0HJuixYanRjEOJdin2V" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\500_F_262034840_x0OiLx1g7ojVe0HJuixYanRjEOJdin2V.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Fon_Step1_with_arrows_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fon_Step1_with_arrows_v2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="30e06ecb10cfa2f75a48bd2af0c7d4f82" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\30e06ecb10cfa2f75a48bd2af0c7d4f82.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,7 +175,7 @@
   <data name="learn-english-background-concept-stock-photo_csp44292922" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\learn-english-background-concept-stock-photo_csp44292922.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fon_Step1_with_arrows_v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fon_Step1_with_arrows_v2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fon_step2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fon_step2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

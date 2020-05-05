@@ -96,6 +96,12 @@
     <Compile Include="Step1Form.Designer.cs">
       <DependentUpon>Step1Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Step2Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Step2Form.Designer.cs">
+      <DependentUpon>Step2Form.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AboutProgrammButton.resx">
       <DependentUpon>AboutProgrammButton.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Step1Form.resx">
       <DependentUpon>Step1Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Step2Form.resx">
+      <DependentUpon>Step2Form.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -199,6 +208,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Fon_Step1_with_arrows_v2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fon_step2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -87,7 +87,7 @@ namespace Learn_English
 
         public void Topic1()
         {
-            TopicText.Text = "COLOROS";
+            TopicText.Text = "COLORS";
             EngWord1Text.Text = "white"; RusWord1Text.Text = "белый";
             EngWord2Text.Text = "black"; RusWord2Text.Text = "чёрный";
             EngWord3Text.Text = "green"; RusWord3Text.Text = "зелёный";

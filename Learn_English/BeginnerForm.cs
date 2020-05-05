@@ -78,5 +78,13 @@ namespace Learn_English
             newStep1Form.Left = this.Left;
             newStep1Form.Top = this.Top;
         }
+
+        private void Step2Button_Click(object sender, EventArgs e)
+        {
+            Step2Form newStep2Form = new Step2Form(this);
+            newStep2Form.Show();
+            newStep2Form.Left = this.Left;
+            newStep2Form.Top = this.Top;
+        }
     }
 }

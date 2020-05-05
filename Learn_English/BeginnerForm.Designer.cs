@@ -91,6 +91,7 @@
             this.Step2Button.TabIndex = 3;
             this.Step2Button.Text = "STEP 2";
             this.Step2Button.UseVisualStyleBackColor = false;
+            this.Step2Button.Click += new System.EventHandler(this.Step2Button_Click);
             // 
             // Step3Button
             // 
