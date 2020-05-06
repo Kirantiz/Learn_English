@@ -55,6 +55,24 @@
             this.RusWord7Text = new System.Windows.Forms.Label();
             this.RusWord8Text = new System.Windows.Forms.Label();
             this.RusWord9Text = new System.Windows.Forms.Label();
+            this.PlayButton4 = new System.Windows.Forms.PictureBox();
+            this.PlayButton5 = new System.Windows.Forms.PictureBox();
+            this.PlayButton6 = new System.Windows.Forms.PictureBox();
+            this.PlayButton7 = new System.Windows.Forms.PictureBox();
+            this.PlayButton8 = new System.Windows.Forms.PictureBox();
+            this.PlayButton9 = new System.Windows.Forms.PictureBox();
+            this.PlayButton3 = new System.Windows.Forms.PictureBox();
+            this.PlayButton2 = new System.Windows.Forms.PictureBox();
+            this.PlayButton1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // BackToLessonsButton
@@ -361,6 +379,132 @@
             this.RusWord9Text.Text = "оранжевый";
             this.RusWord9Text.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // PlayButton4
+            // 
+            this.PlayButton4.BackColor = System.Drawing.Color.Transparent;
+            this.PlayButton4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PlayButton4.BackgroundImage")));
+            this.PlayButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PlayButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PlayButton4.Location = new System.Drawing.Point(342, 216);
+            this.PlayButton4.Margin = new System.Windows.Forms.Padding(0);
+            this.PlayButton4.Name = "PlayButton4";
+            this.PlayButton4.Size = new System.Drawing.Size(53, 54);
+            this.PlayButton4.TabIndex = 31;
+            this.PlayButton4.TabStop = false;
+            this.PlayButton4.Click += new System.EventHandler(this.PlayButton4_Click);
+            // 
+            // PlayButton5
+            // 
+            this.PlayButton5.BackColor = System.Drawing.Color.Transparent;
+            this.PlayButton5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PlayButton5.BackgroundImage")));
+            this.PlayButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PlayButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PlayButton5.Location = new System.Drawing.Point(342, 270);
+            this.PlayButton5.Margin = new System.Windows.Forms.Padding(0);
+            this.PlayButton5.Name = "PlayButton5";
+            this.PlayButton5.Size = new System.Drawing.Size(53, 54);
+            this.PlayButton5.TabIndex = 32;
+            this.PlayButton5.TabStop = false;
+            this.PlayButton5.Click += new System.EventHandler(this.PlayButton5_Click);
+            // 
+            // PlayButton6
+            // 
+            this.PlayButton6.BackColor = System.Drawing.Color.Transparent;
+            this.PlayButton6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PlayButton6.BackgroundImage")));
+            this.PlayButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PlayButton6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PlayButton6.Location = new System.Drawing.Point(342, 324);
+            this.PlayButton6.Margin = new System.Windows.Forms.Padding(0);
+            this.PlayButton6.Name = "PlayButton6";
+            this.PlayButton6.Size = new System.Drawing.Size(53, 54);
+            this.PlayButton6.TabIndex = 33;
+            this.PlayButton6.TabStop = false;
+            this.PlayButton6.Click += new System.EventHandler(this.PlayButton6_Click);
+            // 
+            // PlayButton7
+            // 
+            this.PlayButton7.BackColor = System.Drawing.Color.Transparent;
+            this.PlayButton7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PlayButton7.BackgroundImage")));
+            this.PlayButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PlayButton7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PlayButton7.Location = new System.Drawing.Point(342, 378);
+            this.PlayButton7.Margin = new System.Windows.Forms.Padding(0);
+            this.PlayButton7.Name = "PlayButton7";
+            this.PlayButton7.Size = new System.Drawing.Size(53, 54);
+            this.PlayButton7.TabIndex = 34;
+            this.PlayButton7.TabStop = false;
+            this.PlayButton7.Click += new System.EventHandler(this.PlayButton7_Click);
+            // 
+            // PlayButton8
+            // 
+            this.PlayButton8.BackColor = System.Drawing.Color.Transparent;
+            this.PlayButton8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PlayButton8.BackgroundImage")));
+            this.PlayButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PlayButton8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PlayButton8.Location = new System.Drawing.Point(342, 432);
+            this.PlayButton8.Margin = new System.Windows.Forms.Padding(0);
+            this.PlayButton8.Name = "PlayButton8";
+            this.PlayButton8.Size = new System.Drawing.Size(53, 54);
+            this.PlayButton8.TabIndex = 35;
+            this.PlayButton8.TabStop = false;
+            this.PlayButton8.Click += new System.EventHandler(this.PlayButton8_Click);
+            // 
+            // PlayButton9
+            // 
+            this.PlayButton9.BackColor = System.Drawing.Color.Transparent;
+            this.PlayButton9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PlayButton9.BackgroundImage")));
+            this.PlayButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PlayButton9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PlayButton9.Location = new System.Drawing.Point(342, 486);
+            this.PlayButton9.Margin = new System.Windows.Forms.Padding(0);
+            this.PlayButton9.Name = "PlayButton9";
+            this.PlayButton9.Size = new System.Drawing.Size(53, 54);
+            this.PlayButton9.TabIndex = 36;
+            this.PlayButton9.TabStop = false;
+            this.PlayButton9.Click += new System.EventHandler(this.PlayButton9_Click);
+            // 
+            // PlayButton3
+            // 
+            this.PlayButton3.BackColor = System.Drawing.Color.Transparent;
+            this.PlayButton3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PlayButton3.BackgroundImage")));
+            this.PlayButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PlayButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PlayButton3.Location = new System.Drawing.Point(342, 162);
+            this.PlayButton3.Margin = new System.Windows.Forms.Padding(0);
+            this.PlayButton3.Name = "PlayButton3";
+            this.PlayButton3.Size = new System.Drawing.Size(53, 54);
+            this.PlayButton3.TabIndex = 37;
+            this.PlayButton3.TabStop = false;
+            this.PlayButton3.Click += new System.EventHandler(this.PlayButton3_Click);
+            // 
+            // PlayButton2
+            // 
+            this.PlayButton2.BackColor = System.Drawing.Color.Transparent;
+            this.PlayButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PlayButton2.BackgroundImage")));
+            this.PlayButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PlayButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PlayButton2.Location = new System.Drawing.Point(342, 108);
+            this.PlayButton2.Margin = new System.Windows.Forms.Padding(0);
+            this.PlayButton2.Name = "PlayButton2";
+            this.PlayButton2.Size = new System.Drawing.Size(53, 54);
+            this.PlayButton2.TabIndex = 38;
+            this.PlayButton2.TabStop = false;
+            this.PlayButton2.Click += new System.EventHandler(this.PlayButton2_Click);
+            // 
+            // PlayButton1
+            // 
+            this.PlayButton1.BackColor = System.Drawing.Color.Transparent;
+            this.PlayButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PlayButton1.BackgroundImage")));
+            this.PlayButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PlayButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PlayButton1.Location = new System.Drawing.Point(342, 54);
+            this.PlayButton1.Margin = new System.Windows.Forms.Padding(0);
+            this.PlayButton1.Name = "PlayButton1";
+            this.PlayButton1.Size = new System.Drawing.Size(53, 54);
+            this.PlayButton1.TabIndex = 39;
+            this.PlayButton1.TabStop = false;
+            this.PlayButton1.Click += new System.EventHandler(this.PlayButton1_Click);
+            // 
             // Step1Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -368,6 +512,15 @@
             this.BackgroundImage = global::Learn_English.Properties.Resources.Fon_Step1_with_arrows_v2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(407, 658);
+            this.Controls.Add(this.PlayButton1);
+            this.Controls.Add(this.PlayButton2);
+            this.Controls.Add(this.PlayButton3);
+            this.Controls.Add(this.PlayButton9);
+            this.Controls.Add(this.PlayButton8);
+            this.Controls.Add(this.PlayButton7);
+            this.Controls.Add(this.PlayButton6);
+            this.Controls.Add(this.PlayButton5);
+            this.Controls.Add(this.PlayButton4);
             this.Controls.Add(this.RusWord9Text);
             this.Controls.Add(this.RusWord8Text);
             this.Controls.Add(this.RusWord7Text);
@@ -402,6 +555,15 @@
             this.Text = "Step1Form";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Step1Form_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Step1Form_MouseMove);
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlayButton1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -435,5 +597,14 @@
         private System.Windows.Forms.Label RusWord7Text;
         private System.Windows.Forms.Label RusWord8Text;
         private System.Windows.Forms.Label RusWord9Text;
+        private System.Windows.Forms.PictureBox PlayButton4;
+        private System.Windows.Forms.PictureBox PlayButton5;
+        private System.Windows.Forms.PictureBox PlayButton6;
+        private System.Windows.Forms.PictureBox PlayButton7;
+        private System.Windows.Forms.PictureBox PlayButton8;
+        private System.Windows.Forms.PictureBox PlayButton9;
+        private System.Windows.Forms.PictureBox PlayButton3;
+        private System.Windows.Forms.PictureBox PlayButton2;
+        private System.Windows.Forms.PictureBox PlayButton1;
     }
 }

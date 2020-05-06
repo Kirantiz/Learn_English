@@ -1,0 +1,5 @@
+﻿USE [F:\GIT\LEARN_ENGLISH\LEARN_ENGLISH\LEARNENGLISHDB.MDF];
+
+UPDATE Step1 
+SET [FileName] = 'anorange.wav'
+WHERE IdWord=63

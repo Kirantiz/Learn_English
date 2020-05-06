@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Media;
 
 namespace Learn_English
 {
     public partial class Step1Form : Form
     {
+        string SqlStr = "Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename=F:\\Git\\Learn_English\\Learn_English\\LearnEnglishDB.mdf;Integrated Security = True";
         private BeginnerForm _BeginnerMenu;
         public int PageNum;
         public Step1Form()
@@ -225,21 +228,194 @@ namespace Learn_English
             EngWord8Text.Text = "a pencil"; RusWord8Text.Text = "карандаш";
             EngWord9Text.Text = "a rubber"; RusWord9Text.Text = "стирка";
         }
-/*
-        public void Topic11()
+
+        public string SqlWav(string IdWord)
         {
-            TopicText.Text = "";
-            EngWord1Text.Text = ""; RusWord1Text.Text = "";
-            EngWord2Text.Text = ""; RusWord2Text.Text = "";
-            EngWord3Text.Text = ""; RusWord3Text.Text = "";
-            EngWord4Text.Text = ""; RusWord4Text.Text = "";
-            EngWord5Text.Text = ""; RusWord5Text.Text = "";
-            EngWord6Text.Text = ""; RusWord6Text.Text = "";
-            EngWord7Text.Text = ""; RusWord7Text.Text = "";
-            EngWord8Text.Text = ""; RusWord8Text.Text = "";
-            EngWord9Text.Text = ""; RusWord9Text.Text = "";
+            using (var connection = new SqlConnection(SqlStr))
+            {
+                connection.Open();
+                using (var cmd = new SqlCommand($"SELECT (Path+FileName) FROM Step1 WHERE IdWord ={IdWord}", connection))
+                {
+                    using (var rd = cmd.ExecuteReader())
+                    {
+                        if (rd.Read())
+                        {
+                            return rd.GetValue(0).ToString();
+                        }
+                        else return " ";
+                    }
+                }
+            }
         }
- */
+
+        private void PlayButton1_Click(object sender, EventArgs e)
+        {
+            string wordID="1";
+            if (PageNum == 1) wordID = "1";
+            if (PageNum == 2) wordID = "10";
+            if (PageNum == 3) wordID = "19";
+            if (PageNum == 4) wordID = "28";
+            if (PageNum == 5) wordID = "37";
+            if (PageNum == 6) wordID = "46";
+            if (PageNum == 7) wordID = "55";
+            if (PageNum == 8) wordID = "64";
+            if (PageNum == 9) wordID = "73";
+            if (PageNum == 10) wordID = "82";
+            SoundPlayer Simple = new SoundPlayer(SqlWav(wordID));
+            Simple.Play();
+        }
+
+        private void PlayButton2_Click(object sender, EventArgs e)
+        {
+            string wordID = "1";
+            if (PageNum == 1) wordID = "2";
+            if (PageNum == 2) wordID = "11";
+            if (PageNum == 3) wordID = "20";
+            if (PageNum == 4) wordID = "29";
+            if (PageNum == 5) wordID = "38";
+            if (PageNum == 6) wordID = "47";
+            if (PageNum == 7) wordID = "56";
+            if (PageNum == 8) wordID = "65";
+            if (PageNum == 9) wordID = "74";
+            if (PageNum == 10) wordID = "83";
+            SoundPlayer Simple = new SoundPlayer(SqlWav(wordID));
+            Simple.Play();
+        }
+
+        private void PlayButton3_Click(object sender, EventArgs e)
+        {
+            string wordID = "1";
+            if (PageNum == 1) wordID = "3";
+            if (PageNum == 2) wordID = "12";
+            if (PageNum == 3) wordID = "21";
+            if (PageNum == 4) wordID = "30";
+            if (PageNum == 5) wordID = "39";
+            if (PageNum == 6) wordID = "48";
+            if (PageNum == 7) wordID = "57";
+            if (PageNum == 8) wordID = "66";
+            if (PageNum == 9) wordID = "75";
+            if (PageNum == 10) wordID = "84";
+            SoundPlayer Simple = new SoundPlayer(SqlWav(wordID));
+            Simple.Play();
+        }
+
+        private void PlayButton4_Click(object sender, EventArgs e)
+        {
+            string wordID = "1";
+            if (PageNum == 1) wordID = "4";
+            if (PageNum == 2) wordID = "13";
+            if (PageNum == 3) wordID = "22";
+            if (PageNum == 4) wordID = "31";
+            if (PageNum == 5) wordID = "40";
+            if (PageNum == 6) wordID = "49";
+            if (PageNum == 7) wordID = "58";
+            if (PageNum == 8) wordID = "67";
+            if (PageNum == 9) wordID = "76";
+            if (PageNum == 10) wordID = "85";
+            SoundPlayer Simple = new SoundPlayer(SqlWav(wordID));
+            Simple.Play();
+        }
+
+        private void PlayButton5_Click(object sender, EventArgs e)
+        {
+            string wordID = "1";
+            if (PageNum == 1) wordID = "5";
+            if (PageNum == 2) wordID = "14";
+            if (PageNum == 3) wordID = "23";
+            if (PageNum == 4) wordID = "32";
+            if (PageNum == 5) wordID = "41";
+            if (PageNum == 6) wordID = "50";
+            if (PageNum == 7) wordID = "59";
+            if (PageNum == 8) wordID = "68";
+            if (PageNum == 9) wordID = "77";
+            if (PageNum == 10) wordID = "86";
+            SoundPlayer Simple = new SoundPlayer(SqlWav(wordID));
+            Simple.Play();
+        }
+
+        private void PlayButton6_Click(object sender, EventArgs e)
+        {
+            string wordID = "1";
+            if (PageNum == 1) wordID = "6";
+            if (PageNum == 2) wordID = "15";
+            if (PageNum == 3) wordID = "24";
+            if (PageNum == 4) wordID = "33";
+            if (PageNum == 5) wordID = "42";
+            if (PageNum == 6) wordID = "51";
+            if (PageNum == 7) wordID = "60";
+            if (PageNum == 8) wordID = "69";
+            if (PageNum == 9) wordID = "78";
+            if (PageNum == 10) wordID = "87";
+            SoundPlayer Simple = new SoundPlayer(SqlWav(wordID));
+            Simple.Play();
+        }
+
+        private void PlayButton7_Click(object sender, EventArgs e)
+        {
+            string wordID = "1";
+            if (PageNum == 1) wordID = "7";
+            if (PageNum == 2) wordID = "16";
+            if (PageNum == 3) wordID = "25";
+            if (PageNum == 4) wordID = "34";
+            if (PageNum == 5) wordID = "43";
+            if (PageNum == 6) wordID = "52";
+            if (PageNum == 7) wordID = "61";
+            if (PageNum == 8) wordID = "70";
+            if (PageNum == 9) wordID = "79";
+            if (PageNum == 10) wordID = "88";
+            SoundPlayer Simple = new SoundPlayer(SqlWav(wordID));
+            Simple.Play();
+        }
+
+        private void PlayButton8_Click(object sender, EventArgs e)
+        {
+            string wordID = "1";
+            if (PageNum == 1) wordID = "8";
+            if (PageNum == 2) wordID = "17";
+            if (PageNum == 3) wordID = "26";
+            if (PageNum == 4) wordID = "35";
+            if (PageNum == 5) wordID = "44";
+            if (PageNum == 6) wordID = "53";
+            if (PageNum == 7) wordID = "62";
+            if (PageNum == 8) wordID = "71";
+            if (PageNum == 9) wordID = "80";
+            if (PageNum == 10) wordID = "89";
+            SoundPlayer Simple = new SoundPlayer(SqlWav(wordID));
+            Simple.Play();
+        }
+
+        private void PlayButton9_Click(object sender, EventArgs e)
+        {
+            string wordID = "1";
+            if (PageNum == 1) wordID = "9";
+            if (PageNum == 2) wordID = "18";
+            if (PageNum == 3) wordID = "27";
+            if (PageNum == 4) wordID = "36";
+            if (PageNum == 5) wordID = "45";
+            if (PageNum == 6) wordID = "54";
+            if (PageNum == 7) wordID = "63";
+            if (PageNum == 8) wordID = "72";
+            if (PageNum == 9) wordID = "81";
+            if (PageNum == 10) wordID = "90";
+            SoundPlayer Simple = new SoundPlayer(SqlWav(wordID));
+            Simple.Play();
+        }
+
+        /*
+       public void Topic11()
+       {
+           TopicText.Text = "";
+           EngWord1Text.Text = ""; RusWord1Text.Text = "";
+           EngWord2Text.Text = ""; RusWord2Text.Text = "";
+           EngWord3Text.Text = ""; RusWord3Text.Text = "";
+           EngWord4Text.Text = ""; RusWord4Text.Text = "";
+           EngWord5Text.Text = ""; RusWord5Text.Text = "";
+           EngWord6Text.Text = ""; RusWord6Text.Text = "";
+           EngWord7Text.Text = ""; RusWord7Text.Text = "";
+           EngWord8Text.Text = ""; RusWord8Text.Text = "";
+           EngWord9Text.Text = ""; RusWord9Text.Text = "";
+       }
+*/
 
 
     }
