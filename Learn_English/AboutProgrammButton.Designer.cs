@@ -72,9 +72,9 @@
             this.Version.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Version.Location = new System.Drawing.Point(12, 190);
             this.Version.Name = "Version";
-            this.Version.Size = new System.Drawing.Size(166, 23);
+            this.Version.Size = new System.Drawing.Size(157, 23);
             this.Version.TabIndex = 3;
-            this.Version.Text = "Version 0.3 alpha";
+            this.Version.Text = "Version 0.9 beta";
             // 
             // AuthorText
             // 

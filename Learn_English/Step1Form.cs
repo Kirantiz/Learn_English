@@ -27,6 +27,7 @@ namespace Learn_English
             InitializeComponent();
             _BeginnerMenu = BeginnerMenu;
             _BeginnerMenu.Hide();
+            PageNum = Convert.ToInt32(NpageStep1.Text);
         }
 
         Point lastPoint;
