@@ -14,7 +14,7 @@ namespace Learn_English
 {
     public partial class Step1Form : Form
     {
-        string SqlStr = "Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename=F:\\Git\\Learn_English\\Learn_English\\LearnEnglishDB.mdf;Integrated Security = True";
+       // string SqlStr = "Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename=F:\\Git\\Learn_English\\Learn_English\\LearnEnglishDB.mdf;Integrated Security = True";
         private BeginnerForm _BeginnerMenu;
         public int PageNum;
         public Step1Form()
@@ -230,23 +230,120 @@ namespace Learn_English
             EngWord9Text.Text = "a rubber"; RusWord9Text.Text = "стирка";
         }
 
+        string path = Environment.CurrentDirectory + "/Word/";
         public string SqlWav(string IdWord)
         {
-            using (var connection = new SqlConnection(SqlStr))
-            {
-                connection.Open();
-                using (var cmd = new SqlCommand($"SELECT (Path+FileName) FROM Step1 WHERE IdWord ={IdWord}", connection))
-                {
-                    using (var rd = cmd.ExecuteReader())
-                    {
-                        if (rd.Read())
-                        {
-                            return rd.GetValue(0).ToString();
-                        }
-                        else return " ";
-                    }
-                }
-            }
+
+            if (IdWord == "1") IdWord = "white.wav";
+            if (IdWord == "2") IdWord = "black.wav";
+            if (IdWord == "3") IdWord = "green.wav";
+            if (IdWord == "4") IdWord = "red.wav";
+            if (IdWord == "5") IdWord = "blue.wav";
+            if (IdWord == "6") IdWord = "yellow.wav";
+            if (IdWord == "7") IdWord = "pink.wav";
+            if (IdWord == "8") IdWord = "brown.wav";
+            if (IdWord == "9") IdWord = "orange.wav";
+            if (IdWord == "10") IdWord = "mum.wav";
+            if (IdWord == "11") IdWord = "dad.wav";
+            if (IdWord == "12") IdWord = "sister.wav";
+            if (IdWord == "13") IdWord = "brother.wav";
+            if (IdWord == "14") IdWord = "granny.wav";
+            if (IdWord == "15") IdWord = "grandad.wav";
+            if (IdWord == "16") IdWord = "family.wav";
+            if (IdWord == "17") IdWord = "cat.wav";
+            if (IdWord == "18") IdWord = "dog.wav";
+            if (IdWord == "19") IdWord = "chicken.wav";
+            if (IdWord == "20") IdWord = "horse.wav";
+            if (IdWord == "21") IdWord = "cow.wav";
+            if (IdWord == "22") IdWord = "rabbit.wav";
+            if (IdWord == "23") IdWord = "mouse.wav";
+            if (IdWord == "24") IdWord = "pig.wav";
+            if (IdWord == "25") IdWord = "sheep.wav";
+            if (IdWord == "26") IdWord = "hamster.wav";
+            if (IdWord == "27") IdWord = "duck.wav";
+            if (IdWord == "28") IdWord = "run.wav";
+            if (IdWord == "29") IdWord = "jump.wav";
+            if (IdWord == "30") IdWord = "swim.wav";
+            if (IdWord == "31") IdWord = "fly.wav";
+            if (IdWord == "32") IdWord = "climb.wav";
+            if (IdWord == "33") IdWord = "sing.wav";
+            if (IdWord == "34") IdWord = "dance.wav";
+            if (IdWord == "35") IdWord = "read.wav";
+            if (IdWord == "36") IdWord = "write.wav";
+            if (IdWord == "37") IdWord = "crocodile.wav";
+            if (IdWord == "38") IdWord = "elephant.wav";
+            if (IdWord == "39") IdWord = "hippo.wav";
+            if (IdWord == "40") IdWord = "giraffe.wav";
+            if (IdWord == "41") IdWord = "monkey.wav";
+            if (IdWord == "42") IdWord = "tiger.wav";
+            if (IdWord == "43") IdWord = "lion.wav";
+            if (IdWord == "44") IdWord = "bear.wav";
+            if (IdWord == "45") IdWord = "fox.wav";
+            if (IdWord == "46") IdWord = "head.wav";
+            if (IdWord == "47") IdWord = "face.wav";
+            if (IdWord == "48") IdWord = "ear.wav";
+            if (IdWord == "49") IdWord = "eye.wav";
+            if (IdWord == "50") IdWord = "hair.wav";
+            if (IdWord == "51") IdWord = "mouth.wav";
+            if (IdWord == "52") IdWord = "nose.wav";
+            if (IdWord == "53") IdWord = "hands.wav";
+            if (IdWord == "54") IdWord = "fingers.wav";
+            if (IdWord == "55") IdWord = "meat.wav";
+            if (IdWord == "56") IdWord = "sausages.wav";
+            if (IdWord == "57") IdWord = "potato.wav";
+            if (IdWord == "58") IdWord = "bread.wav";
+            if (IdWord == "59") IdWord = "chocolate.wav";
+            if (IdWord == "60") IdWord = "icecream.wav";
+            if (IdWord == "61") IdWord = "cheese.wav";
+            if (IdWord == "62") IdWord = "lemon.wav";
+            if (IdWord == "63") IdWord = "anorange.wav";
+            if (IdWord == "64") IdWord = "banana.wav";
+            if (IdWord == "65") IdWord = "apple.wav";
+            if (IdWord == "66") IdWord = "carrot.wav";
+            if (IdWord == "67") IdWord = "cakes.wav";
+            if (IdWord == "68") IdWord = "sweets.wav";
+            if (IdWord == "69") IdWord = "a pizza.wav";
+            if (IdWord == "70") IdWord = "soup.wav";
+            if (IdWord == "71") IdWord = "fish.wav";
+            if (IdWord == "72") IdWord = "yummy.wav";
+            if (IdWord == "73") IdWord = "house.wav";
+            if (IdWord == "74") IdWord = "room.wav";
+            if (IdWord == "75") IdWord = "floor.wav";
+            if (IdWord == "76") IdWord = "door.wav";
+            if (IdWord == "77") IdWord = "window.wav";
+            if (IdWord == "78") IdWord = "table.wav";
+            if (IdWord == "79") IdWord = "bed.wav";
+            if (IdWord == "80") IdWord = "chair.wav";
+            if (IdWord == "81") IdWord = "carpet.wav";
+            if (IdWord == "82") IdWord = "pupil.wav";
+            if (IdWord == "83") IdWord = "teacher.wav";
+            if (IdWord == "84") IdWord = "school.wav";
+            if (IdWord == "85") IdWord = "board.wav";
+            if (IdWord == "86") IdWord = "desk.wav";
+            if (IdWord == "87") IdWord = "book.wav";
+            if (IdWord == "88") IdWord = "pen.wav";
+            if (IdWord == "89") IdWord = "rubber.wav";
+            if (IdWord == "90") IdWord = "pencil.wav";
+
+            IdWord = path + IdWord;
+
+            return IdWord;
+
+            /* using (var connection = new SqlConnection(SqlStr))
+             {
+                 connection.Open();
+                 using (var cmd = new SqlCommand($"SELECT (Path+FileName) FROM Step1 WHERE IdWord ={IdWord}", connection))
+                 {
+                     using (var rd = cmd.ExecuteReader())
+                     {
+                         if (rd.Read())
+                         {
+                             return rd.GetValue(0).ToString();
+                         }
+                         else return " ";
+                     }
+                 }
+             }*/
         }
 
         private void PlayButton1_Click(object sender, EventArgs e)

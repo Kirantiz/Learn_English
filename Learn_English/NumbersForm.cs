@@ -15,16 +15,24 @@ namespace Learn_English
 {
     public partial class NumbersForm : Form
     {
-        string SqlStr = "Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename=F:\\Git\\Learn_English\\Learn_English\\LearnEnglishDB.mdf;Integrated Security = True";
+      //  string SqlStr = "Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename=F:\\Git\\Learn_English\\Learn_English\\LearnEnglishDB.mdf;Integrated Security = True";
         private BeginnerForm _BeginnerMenu;
         public NumbersForm()
         {
             InitializeComponent();
 
         }
-        
+
+
+        string path = Environment.CurrentDirectory + "/Numbers/";
+
         public string SqlWav(string num)
         {
+
+            num = path + num + ".wav";
+
+            return num;
+            /*
             using (var connection = new SqlConnection(SqlStr))
             {
                 connection.Open();
@@ -39,7 +47,7 @@ namespace Learn_English
                         else return " ";
                     }
                 }
-            }
+            }*/
         }
 
         public NumbersForm(BeginnerForm BeginnerMenu)

@@ -65,7 +65,7 @@
             this.elemantaryButton.Name = "elemantaryButton";
             this.elemantaryButton.Size = new System.Drawing.Size(246, 43);
             this.elemantaryButton.TabIndex = 1;
-            this.elemantaryButton.Text = "ELEMANTARY";
+            this.elemantaryButton.Text = "ELEMENTARY";
             this.elemantaryButton.UseVisualStyleBackColor = false;
             this.elemantaryButton.Click += new System.EventHandler(this.elemantaryButton_Click);
             // 
@@ -82,7 +82,7 @@
             this.optionsButton.Name = "optionsButton";
             this.optionsButton.Size = new System.Drawing.Size(246, 43);
             this.optionsButton.TabIndex = 2;
-            this.optionsButton.Text = "ABOUT PROGRAMM";
+            this.optionsButton.Text = "ABOUT PROGRAM";
             this.optionsButton.UseVisualStyleBackColor = false;
             this.optionsButton.Click += new System.EventHandler(this.optionsButton_Click);
             // 
@@ -122,6 +122,7 @@
             this.Name = "StartMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LEARN ENGLISH";
+            this.TopMost = true;
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.StartMenu_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.StartMenu_MouseMove);
             this.ResumeLayout(false);

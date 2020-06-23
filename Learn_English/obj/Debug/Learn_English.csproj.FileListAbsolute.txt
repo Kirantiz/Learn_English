@@ -18,3 +18,4 @@ F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.Step2Form.resources
 F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.Step3Form.resources
 F:\Git\Learn_English\Learn_English\bin\Debug\LearnEnglishDB.mdf
 F:\Git\Learn_English\Learn_English\bin\Debug\LearnEnglishDB_log.ldf
+F:\Git\Learn_English\Learn_English\obj\Debug\Learn_English.csproj.CoreCompileInputs.cache

@@ -9,12 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Media;
+using System.IO;
 
 namespace Learn_English
 {
     public partial class AlphabetForm : Form
     {
-        string SqlStr = "Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename=F:\\Git\\Learn_English\\Learn_English\\LearnEnglishDB.mdf;Integrated Security = True";
+       // string SqlStr = "Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename=F:\\Git\\Learn_English\\Learn_English\\LearnEnglishDB.mdf;Integrated Security = True";
         //private StartMenu _startMenu;
         private BeginnerForm _BeginnerMenu;
 
@@ -54,24 +55,34 @@ namespace Learn_English
             _BeginnerMenu.Show();
             
         }
-        public string SqlWav(string Letter)
-        {
-            using (var connection = new SqlConnection(SqlStr))
-            {
-                connection.Open();
-                using (var cmd = new SqlCommand($"SELECT (Path+FileName) FROM Alphabet WHERE [Letter] ='{Letter}'", connection))
-                {
-                    using (var rd = cmd.ExecuteReader())
-                    {
-                        if (rd.Read())
-                        {
-                            return rd.GetValue(0).ToString();
-                        }
-                        else return " ";
-                    }
-                }
-            }
-        }
+          public string SqlWav(string Letter)
+          {
+
+            Letter = path + Letter.ToLower() + ".wav";
+
+            return Letter;
+
+
+            /*  using (var connection = new SqlConnection(SqlStr))
+              {
+                  connection.Open();
+                  using (var cmd = new SqlCommand($"SELECT (Path+FileName) FROM Alphabet WHERE [Letter] ='{Letter}'", connection))
+                  {
+                      using (var rd = cmd.ExecuteReader())
+                      {
+                          if (rd.Read())
+                          {
+                              return rd.GetValue(0).ToString();
+                          }
+                          else return " ";
+                      }
+                  }
+              }
+        */
+          }
+          
+
+        string path = Environment.CurrentDirectory + "/Alphabet/";
 
         private void LetterA_Click(object sender, EventArgs e)
         {

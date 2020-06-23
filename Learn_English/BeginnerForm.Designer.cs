@@ -148,6 +148,7 @@
             this.Name = "BeginnerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BeginnerForm";
+            this.TopMost = true;
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BeginnerForm_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.BeginnerForm_MouseMove);
             this.ResumeLayout(false);

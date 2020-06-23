@@ -61,9 +61,9 @@
             this.AboutProgramText.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AboutProgramText.Location = new System.Drawing.Point(104, 144);
             this.AboutProgramText.Name = "AboutProgramText";
-            this.AboutProgramText.Size = new System.Drawing.Size(198, 23);
+            this.AboutProgramText.Size = new System.Drawing.Size(182, 23);
             this.AboutProgramText.TabIndex = 2;
-            this.AboutProgramText.Text = "ABOUT PROGRAMM";
+            this.AboutProgramText.Text = "ABOUT PROGRAM";
             // 
             // Version
             // 
@@ -116,9 +116,9 @@
             this.ThanksText.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ThanksText.Location = new System.Drawing.Point(12, 375);
             this.ThanksText.Name = "ThanksText";
-            this.ThanksText.Size = new System.Drawing.Size(303, 46);
+            this.ThanksText.Size = new System.Drawing.Size(288, 46);
             this.ThanksText.TabIndex = 7;
-            this.ThanksText.Text = "Thanks for using this programm.\r\nWe hope you like it.";
+            this.ThanksText.Text = "Thanks for using this program.\r\nWe hope you like it.";
             // 
             // label1
             // 
